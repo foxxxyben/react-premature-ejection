@@ -1,5 +1,5 @@
-Sane defaults are great, but so is easy customization. Ejecting CRA sounds ominous:
-![GOOSE!](/eject.jpg)
+Sane defaults are great, but so is easy customization. Ejecting CRA sounds ominous:  
+![GOOSE!](/eject.jpg). 
 but all it does is move */scripts* and */config* from "./node_modules/react-scripts" to the project root. Which are now tracked by git, so instead of jumping through a bunch of [hoops to fork your own copy of the base *react-scripts*](https://auth0.com/blog/how-to-configure-create-react-app/), just clone this repo, customize, *npm install*, and go.
 
 If you want to incorporate new official CRA *react-scripts* as they are upgraded, create a new branch with only the following steps:
